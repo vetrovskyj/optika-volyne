@@ -41,7 +41,7 @@ header p {
     align-items: center;
     font-size: 14px;
     width: 85%;
-    height: 3vh;
+    min-height: 3vh;
 }
 
 .topandbottom a,
@@ -78,7 +78,7 @@ header p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 12vh;
+    min-height: 12vh;
     margin: auto;
 }
 
@@ -219,7 +219,7 @@ footer i {
     .ham-nav {
         background-color: #777777;
         width: 100%;
-        height: 20vh;
+        min-height: 20vh;
     }
     .ham-nav div {
         display: flex;
@@ -446,7 +446,7 @@ footer i {
 
 .icons {
     display: flex;
-    height: 35vh;
+    min-height: 35vh;
     width: 85%;
     justify-content: space-between;
 }
@@ -456,7 +456,7 @@ footer i {
     flex-direction: column;
     justify-content: space-evenly;
     width: calc(100% / 3);
-    height: 35vh;
+    min-height: 35vh;
     text-align: center;
 }
 
@@ -620,10 +620,10 @@ footer i {
         height: 40vh;
     }
     .icons {
-        height: 25vh;
+        min-height: 25vh;
     }
     .icon-container {
-        height: 25vh;
+        min-height: 25vh;
     }
     .bottom-section {
         min-height: 20vh;
@@ -648,6 +648,7 @@ footer i {
         flex-direction: row;
         width: auto;
         height: auto;
+        min-height: auto;
         margin: 20px 0;
     }
     .icon-container:nth-child(2) {
@@ -807,7 +808,50 @@ footer i {
     }
 }
 
-@media (max-height:600px) {}
+@media (max-height:730px) and (min-width: 1400px) {
+    .slider {
+        height: 400px;
+    }
+    .sliderphoto {
+        height: 400px;
+    }
+}
+
+@media (max-height:700px) and (max-width: 1400px) {
+    .slider {
+        height: 350px;
+    }
+    .sliderphoto {
+        height: 350px;
+    }
+}
+
+@media (max-height:730px) and (max-width: 500px) {
+    .slider {
+        height: 250px;
+    }
+    .sliderphoto {
+        height: 250px;
+    }
+}
+
+@media (max-height:700px) and (max-width: 350px) {
+    .slider {
+        height: 200px;
+    }
+    .sliderphoto {
+        height: 200px;
+    }
+}
+
+@media (max-height:700px) and (max-width: 300px) {
+    .slider {
+        height: 180px;
+    }
+    .sliderphoto {
+        height: 180px;
+    }
+}
 
 
 /* css for about */
