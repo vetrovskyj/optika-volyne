@@ -455,6 +455,7 @@ footer i {
     min-height: 35vh;
     width: 85%;
     justify-content: space-between;
+    padding: 10px 0;
 }
 
 .icon-container {
