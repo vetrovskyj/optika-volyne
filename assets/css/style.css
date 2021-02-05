@@ -368,6 +368,12 @@ footer i {
     }
 }
 
+.contact-main,
+.about-main,
+.prices-main {
+    min-height: 82.1vh;
+}
+
 
 /* css for homepage */
 
@@ -381,13 +387,26 @@ footer i {
 .sliderphoto {
     width: 100%;
     height: 50vh;
-    object-fit: cover;
-    filter: brightness(50%);
+    position: relative;
+    overflow: hidden;
 }
 
 .slider {
     position: relative;
     height: 50vh;
+    width: 100%;
+}
+
+.photo {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.photo:nth-child(2) {
+    z-index: 4;
 }
 
 .slider-sale-and-text {
@@ -861,7 +880,7 @@ footer i {
 }
 
 
-/* css for about */
+/* css for about 
 
 .about-body {
     background-image: url(../img/background_about.svg);
@@ -926,33 +945,6 @@ footer i {
     margin: auto;
 }
 
-
-/*.about-main::after {
-    content: '';
-    background: url(../img/ellipse_full_green.png);
-    position: absolute;
-    width: 100%;
-    height: 1300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: -1;
-    bottom: 620px;
-    right: 380px;
-}
-
-.about-main::before {
-    content: '';
-    background: url(../img/ellipse_full_blue.png);
-    position: absolute;
-    width: 100%;
-    height: 1200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: -1;
-    bottom: -700px;
-    right: -1150px;
-}*/
-
 @media (max-width:1645px) {
     .container-about {
         width: 70%;
@@ -1014,10 +1006,10 @@ footer i {
     .theme h2 {
         font-size: 18px;
     }
-}
+}*/
 
 
-/* css for kontakt */
+/* css for kontakt 
 
 .contact-body {
     background-image: url(../img/background_kontakt.svg);
@@ -1162,33 +1154,6 @@ textarea {
     border-radius: 10px;
 }
 
-
-/*.contact-main::after {
-    content: '';
-    background: url(../img/ellipse_full_green.png);
-    position: absolute;
-    width: 100%;
-    height: 1300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: -1;
-    bottom: 620px;
-    right: 380px;
-}
-
-.contact-main::before {
-    content: '';
-    background: url(../img/ellipse_full_blue.png);
-    position: absolute;
-    width: 100%;
-    height: 1200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: -1;
-    bottom: -700px;
-    right: -1150px;
-}*/
-
 @media (max-width: 1578px) {
     .contact-body {
         background-size: 1900px;
@@ -1325,315 +1290,10 @@ textarea {
     .contact-main a {
         font-size: 10px;
     }
-}
+} */
 
 
-/* css for vyprodej */
-
-.sales-body {
-    background-image: url(../img/background_vyprodej.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: -200px;
-    background-size: 2200px;
-}
-
-.container-sales {
-    border-top: black 2px solid;
-    width: 85%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-.container-sales h2,
-.container-sales h1 {
-    font-size: 32px;
-    font-weight: 600;
-}
-
-.container-sales h3 {
-    font-weight: 500;
-    font-size: 18px;
-}
-
-.main-sales {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    order: 2;
-    width: 80%;
-    height: 100%;
-    border-left: 2px black solid;
-}
-
-.box {
-    width: 93%;
-    margin: auto;
-    margin: 10px;
-}
-
-.showcase {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 15px;
-}
-
-.product {
-    width: 23%;
-    height: 300px;
-    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.5);
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-
-.picture {
-    height: 60%;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.picture img {
-    width: 90%;
-}
-
-.product h3 {
-    height: 15%;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.price {
-    height: 25%;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-.sale {
-    display: flex;
-}
-
-.sale p:nth-child(2) {
-    text-decoration: line-through;
-    padding-left: 5px;
-}
-
-.actual-price {
-    font-size: 24px;
-    font-weight: 600;
-    color: #FF0000;
-}
-
-aside {
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-    width: 20%;
-    height: 100%;
-}
-
-.list {
-    padding: 0;
-    margin: 0;
-}
-
-.outter-list {
-    padding-top: 15px;
-    margin-left: 20px;
-}
-
-.outter-list li {
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.inner-list {
-    padding: 10px 0;
-    margin-left: 20px;
-}
-
-.inner-list li {
-    font-size: 18px;
-    font-weight: 500;
-    padding: 5px 0;
-}
-
-
-/*.main-sales::after {
-    content: '';
-    background: url(../img/ellipse_full_green.png);
-    position: absolute;
-    width: 100%;
-    height: 1300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: -1;
-    bottom: 620px;
-    right: 380px;
-}
-
-.main-sales::before {
-    content: '';
-    background: url(../img/ellipse_full_blue.png);
-    position: absolute;
-    width: 100%;
-    height: 1200px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: -1;
-    bottom: -700px;
-    right: -1150px;
-}*/
-
-@media (max-width:1578px) {
-    .main-sales {
-        margin: 0 0 0 30px;
-        padding-left: 30px;
-        border-left: black 2px solid;
-    }
-}
-
-@media (max-width:1200px) {
-    .container-sales {
-        border: none;
-    }
-}
-
-@media (max-width:1100px) {
-    .product {
-        width: 48%;
-        margin: 10px 0;
-    }
-    .showcase {
-        flex-wrap: wrap;
-    }
-    .main-sales {
-        width: 70%;
-        margin: 0 0 0 30px;
-        padding-left: 30px;
-        border-left: black 2px solid;
-    }
-    aside {
-        border: none;
-        width: 30%;
-    }
-    .sales-body {
-        background-size: 2500px;
-        background-position-y: -500px;
-    }
-    .container-sales {
-        margin: 0;
-        margin-bottom: 25px;
-    }
-}
-
-@media (max-width:960px) {
-    .sales-body {
-        background-size: 2100px;
-        background-position-y: -50px;
-    }
-    .sale p {
-        font-size: 12px;
-    }
-    .actual-price {
-        font-size: 14px;
-    }
-    .product h3 {
-        font-size: 16px;
-    }
-    .container-sales h2,
-    .container-sales h1 {
-        font-size: 24px;
-    }
-    .outter-list li {
-        font-size: 18px;
-    }
-    .inner-list li {
-        font-size: 14px;
-    }
-    .product {
-        height: 200px;
-    }
-    .main-sales {
-        width: 90%;
-    }
-    .container-sales {
-        width: 95%;
-    }
-}
-
-@media (max-width:600px) {
-    .sales-body {
-        background-size: 1000px;
-        background-position-y: -200px;
-    }
-    .sale p {
-        font-size: 10px;
-    }
-    .actual-price {
-        font-size: 12px;
-    }
-    .product h3 {
-        font-size: 13px;
-    }
-    .container-sales h2,
-    .container-sales h1 {
-        font-size: 18px;
-    }
-    .outter-list li {
-        font-size: 16px;
-    }
-    .inner-list li {
-        font-size: 12px;
-    }
-    .main-sales {
-        margin: 0 0 0 15px;
-        padding-left: 15px;
-    }
-    .container-sales {
-        border: none;
-        width: 95%;
-        padding: 5px;
-    }
-    .box {
-        width: 100%;
-    }
-}
-
-@media (max-width:300px) {
-    .main-sales {
-        margin: 0 0 0 7px;
-        padding-left: 7px;
-    }
-    .outter-list li {
-        font-size: 14px;
-    }
-    .inner-list li {
-        font-size: 11px;
-    }
-    .outter-list {
-        padding-top: 15px;
-        margin-left: 10px;
-    }
-    .inner-list {
-        padding: 10px 0;
-        margin-left: 10px;
-    }
-    aside h2 {
-        margin-left: -5px;
-    }
-}
-
-
-/* css for cenik */
+/* css for cenik 
 
 .prices-body {
     background-image: url(../img/background_cenik.svg);
@@ -1697,33 +1357,6 @@ aside {
     flex-shrink: 0;
     padding-left: 15px;
 }
-
-
-/*.prices-main::after {
-    content: '';
-    background: url(../img/vector_green.png);
-    position: absolute;
-    width: 100%;
-    height: 800px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: -1;
-    bottom: -350px;
-    right: 400px;
-}
-
-.prices-main::before {
-    content: '';
-    background: url(../img/vector_blue.png);
-    position: absolute;
-    width: 100%;
-    height: 800px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    z-index: -1;
-    bottom: 250px;
-    right: -1150px;
-}*/
 
 @media (max-width:1578px) {
     .prices-body {
@@ -1803,38 +1436,4 @@ aside {
     .prices-body {
         background-size: 1300px;
     }
-}
-
-
-/* making the same pieces of websites responsive */
-
-@media print {
-    .logo,
-    .logo-and-nav {
-        margin: 0 !important;
-        padding: 0 !important;
-        justify-content: center !important;
-    }
-    nav {
-        display: none;
-    }
-    body {
-        background-image: none !important;
-        -webkit-print-color-adjust: exact;
-    }
-    .topandbottom {
-        display: none;
-    }
-    .logo-and-nav {
-        float: top;
-    }
-    img {
-        max-width: 300px;
-    }
-    .picture {
-        max-width: 100px;
-    }
-    .prices-body {
-        justify-content: unset;
-    }
-}
+} */
