@@ -645,6 +645,9 @@ footer i {
         position: relative;
         height: 40vh;
     }
+    .photo {
+        height: 40vh;
+    }
     .icons {
         min-height: 25vh;
     }
@@ -737,6 +740,9 @@ footer i {
     .sliderphoto {
         height: 35vh;
     }
+    .photo {
+        height: 35vh;
+    }
     .rectangle {
         width: 50px;
         height: 10px;
@@ -786,6 +792,9 @@ footer i {
     .sliderphoto {
         height: 30vh;
     }
+    .photo {
+        height: 30vh;
+    }
 }
 
 @media (max-width:300px) {
@@ -800,6 +809,9 @@ footer i {
         height: 25vh;
     }
     .sliderphoto {
+        height: 25vh;
+    }
+    .photo {
         height: 25vh;
     }
 }
@@ -841,6 +853,9 @@ footer i {
     .sliderphoto {
         height: 400px;
     }
+    .photo {
+        height: 400px;
+    }
 }
 
 @media (max-height:700px) and (max-width: 1400px) {
@@ -850,6 +865,9 @@ footer i {
     .sliderphoto {
         height: 350px;
     }
+    .photo {
+        height: 350px;
+    }
 }
 
 @media (max-height:730px) and (max-width: 500px) {
@@ -857,6 +875,9 @@ footer i {
         height: 250px;
     }
     .sliderphoto {
+        height: 250px;
+    }
+    .photo {
         height: 250px;
     }
 }
@@ -875,6 +896,9 @@ footer i {
         height: 180px;
     }
     .sliderphoto {
+        height: 180px;
+    }
+    .photo {
         height: 180px;
     }
 }
