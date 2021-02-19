@@ -12,16 +12,12 @@ function myFunction(x) {
         header.appendChild(hamNav);
         const navList = document.createElement('div');
         const navListLineFirst = document.createElement('a');
-        navListLineFirst.innerText = 'O nás';
-        navListLineFirst.setAttribute('href', './info/')
-        const navListLineSecond = document.createElement('a');
-        navListLineSecond.innerText = 'Ceník';
-        navListLineSecond.setAttribute('href', './cenik/')
+        navListLineFirst.innerText = 'Produkty a služby';
+        navListLineFirst.setAttribute('href', '/sluzby/')
         const navListLineThird = document.createElement('a');
         navListLineThird.innerText = 'Kontakt';
-        navListLineThird.setAttribute('href', './kontakt/')
+        navListLineThird.setAttribute('href', '/kontakt/')
         navList.appendChild(navListLineFirst);
-        navList.appendChild(navListLineSecond);
         navList.appendChild(navListLineThird);
         hamNav.appendChild(navList);
     };
