@@ -16,7 +16,7 @@ function myFunction(x) {
         navListLineFirst.setAttribute('href', './sluzby/')
         const navListLineThird = document.createElement('a');
         navListLineThird.innerText = 'Kontakt';
-        navListLineThird.setAttribute('href', '.kontakt/')
+        navListLineThird.setAttribute('href', './kontakt/')
         navList.appendChild(navListLineFirst);
         navList.appendChild(navListLineThird);
         hamNav.appendChild(navList);
