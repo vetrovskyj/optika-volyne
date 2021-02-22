@@ -279,7 +279,7 @@ footer i {
     }
 }
 
-@media (max-width:480px) {
+@media (max-width:490px) {
     .topandbottom p,
     .topandbottom a {
         font-size: 9px;
@@ -521,15 +521,15 @@ footer i {
     text-decoration: none;
 }
 
-.icon-container:hover {
-    text-decoration: underline;
-    color: #303030;
+.icon-container h2:hover {
+    color: #42AECC;
 }
 
 .icon-container h2 {
     font-size: 64px;
     font-weight: 600;
     color: #303030;
+    text-decoration: underline;
 }
 
 .icon-container img {
@@ -766,7 +766,7 @@ footer i {
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:520px) {
     .slider-sale {
         font-size: 72px;
         height: 72px;
@@ -796,7 +796,7 @@ footer i {
     }
 }
 
-@media (max-width:420px) {
+@media (max-width:450px) {
     .contact a:first-child {
         display: none;
     }
@@ -910,7 +910,7 @@ footer i {
     }
 }
 
-@media (max-height:730px) and (max-width: 500px) {
+@media (max-height:730px) and (max-width: 520px) {
     .slider {
         height: 250px;
     }
@@ -1359,7 +1359,7 @@ footer i {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
     .user-data {
         width: 100%;
         min-width: unset;
@@ -1419,7 +1419,7 @@ footer i {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 450px) {
     .basic-contact h2 {
         font-size: 16px;
     }
@@ -1458,7 +1458,7 @@ footer i {
         font-size: 9px;
     }
     .basic-contacts-data {
-        padding: 20px 0;
+        padding: 20px 5px;
     }
     .basic-contact-container {
         margin-top: 20px;
@@ -1659,7 +1659,7 @@ footer i {
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:520px) {
     .product-cards {
         padding: 30px 0;
     }
@@ -1683,7 +1683,7 @@ footer i {
     }
 }
 
-@media (max-width:420px) {
+@media (max-width:450px) {
     .product-card h2 {
         font-size: 16px;
     }
@@ -1777,7 +1777,7 @@ footer i {
     }
 }
 
-@media (max-height:820px) and (max-width: 420px) {
+@media (max-height:820px) and (max-width: 450px) {
     .slider-products {
         height: 160px;
     }
