@@ -1098,17 +1098,28 @@ nav ul li:last-child {
     text-align: right;
 }
 
-.business-card a img {
-    transition: transform 0.3s ease;
+.business-card-itself {
     height: 112px;
     object-fit: scale-down;
 }
 
 .business-card a {
     max-width: 45%;
+    position: relative;
+    transition: transform 0.3s ease;
 }
 
-.business-card img:hover {
+.download-icon {
+    position: absolute;
+    top: 23px;
+    left: 0;
+    width: 100%;
+    height: 66px;
+    object-fit: contain;
+    opacity: 0.8;
+}
+
+.business-card a:hover {
     transform: scale(0.9);
 }
 
@@ -1358,8 +1369,12 @@ nav ul li:last-child {
     .business-card a {
         max-width: none;
     }
-    .business-card a img {
+    .business-card-itself {
         height: 90px;
+    }
+    .download-icon {
+        top: 22.5px;
+        height: 45px;
     }
 }
 
@@ -1465,8 +1480,12 @@ nav ul li:last-child {
      ::placeholder {
         font-size: 10px;
     }
-    .business-card a img {
+    .business-card-itself {
         height: 70px;
+    }
+    .download-icon {
+        top: 17.5px;
+        height: 35px;
     }
 }
 
@@ -1517,8 +1536,12 @@ nav ul li:last-child {
     .basic-contact-container {
         margin-top: 20px;
     }
-    .business-card a img {
+    .business-card-itself {
         height: 50px;
+    }
+    .download-icon {
+        top: 12.5px;
+        height: 25px;
     }
 }
 
