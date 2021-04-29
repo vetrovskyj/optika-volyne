@@ -13,11 +13,15 @@ function myFunction(x) {
         const navList = document.createElement('div');
         const navListLineFirst = document.createElement('a');
         navListLineFirst.innerText = 'Produkty a služby';
-        navListLineFirst.setAttribute('href', '/optika-volyne/sluzby/')
+        navListLineFirst.setAttribute('href', '/optika-volyne/sluzby/');
+        const navListLineSecond = document.createElement('a');
+        navListLineSecond.innerText = 'Reference';
+        navListLineSecond.setAttribute('href', '/optika-volyne/reference/');
         const navListLineThird = document.createElement('a');
         navListLineThird.innerText = 'Kontakt';
         navListLineThird.setAttribute('href', '/optika-volyne/kontakt/')
         navList.appendChild(navListLineFirst);
+        navList.appendChild(navListLineSecond);
         navList.appendChild(navListLineThird);
         hamNav.appendChild(navList);
     };
