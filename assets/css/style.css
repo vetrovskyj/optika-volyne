@@ -1963,6 +1963,10 @@ nav ul li:last-child {
         padding: 0;
         margin: 15px 15px 5px 15px;
     }
+    .card-btn {
+        padding: 5px;
+        font-size: 12px;
+    }
 }
 
 @media (max-width:520px) {
