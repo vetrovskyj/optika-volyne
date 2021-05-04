@@ -1102,7 +1102,7 @@ nav ul li:last-child {
 
 .store-image-container {
     width: calc(100% / 3);
-    height: 410px;
+    height: 384px;
     position: relative;
 }
 
@@ -1110,7 +1110,7 @@ nav ul li:last-child {
     width: 90%;
     height: 100%;
     object-fit: cover;
-    filter: brightness(70%);
+    filter: brightness(65%);
 }
 
 .contact-heading {
@@ -1138,9 +1138,10 @@ nav ul li:last-child {
     height: auto;
     display: flex;
     align-items: center;
-    padding-top: 40px;
+    padding: 30px 0;
     flex-direction: column;
     color: white;
+    padding-right: 10px;
 }
 
 .basic-contact-container {
@@ -1181,10 +1182,19 @@ nav ul li:last-child {
 
 .day {
     margin-top: 10px;
+    display: flex;
+}
+
+.day p:last-child {
+    margin-left: 0;
 }
 
 .day:first-child {
     margin-top: 0px;
+}
+
+.day p:first-child {
+    width: 110px;
 }
 
 .basic-contact a {
@@ -1402,6 +1412,12 @@ nav ul li:last-child {
     min-width: 10%;
 }
 
+@media (max-width:1520px) {
+    .store-image-container {
+        height: 413px;
+    }
+}
+
 @media (max-width:1400px) {
     .location p {
         font-size: 16px;
@@ -1429,6 +1445,12 @@ nav ul li:last-child {
     }
     .contact-heading p {
         font-size: 48px;
+    }
+    .day p:first-child {
+        width: 75px;
+    }
+    .store-image-container {
+        height: 354px;
     }
 }
 
@@ -1574,6 +1596,9 @@ nav ul li:last-child {
     .basic-contact a {
         margin-left: -29px;
     }
+    .day p:first-child {
+        width: 65px;
+    }
 }
 
 @media (max-width: 520px) {
@@ -1647,6 +1672,9 @@ nav ul li:last-child {
     .contact-heading p {
         font-size: 48px;
     }
+    .day p:first-child {
+        width: 55px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -1706,9 +1734,12 @@ nav ul li:last-child {
         top: 12.5px;
         height: 25px;
     }
+    .day p:first-child {
+        width: 50px;
+    }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 370px) {
     .store-image-container {
         height: 150px;
     }
@@ -1743,6 +1774,9 @@ nav ul li:last-child {
     .basic-contact a {
         margin-left: 0;
     }
+    .day {
+        text-align: left;
+    }
 }
 
 
@@ -1757,14 +1791,14 @@ nav ul li:last-child {
 
 .sliderphoto-products {
     width: 100%;
-    height: 25vh;
+    height: 250px;
     object-fit: cover;
     filter: brightness(50%);
 }
 
 .slider-products {
     position: relative;
-    height: 25vh;
+    height: 250px;
 }
 
 .slider-sale-and-text-products {
@@ -1913,6 +1947,12 @@ nav ul li:last-child {
     }
     .slider-text-products h1 {
         font-size: 48px;
+    }
+    .sliderphoto-products {
+        height: 210px;
+    }
+    .slider-products {
+        height: 210px;
     }
 }
 
