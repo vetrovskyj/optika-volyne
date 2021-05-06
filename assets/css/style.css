@@ -2624,3 +2624,102 @@ nav ul li:last-child {
 .sortiment-bubble:after {
     border-left-color: white;
 }
+
+
+/* css for additional pages */
+
+.additional-pages-main {
+    width: 40%;
+    margin: 0 auto auto auto;
+}
+
+.additional-pages-main h1 {
+    margin: 30px 0;
+    color: #77A02E;
+}
+
+.additional-pages-main h2 {
+    margin: 20px 0;
+}
+
+.additional-pages-main p {
+    text-align: justify;
+}
+
+.additional-pages-nav {
+    border-bottom: 2px solid black;
+}
+
+.additional-pages-footer {
+    border-top: 2px solid black;
+    margin-top: 30px;
+}
+
+@media (max-width:1300px) {
+    .additional-pages-main {
+        width: 65%;
+    }
+}
+
+@media (max-width:900px) {
+    .additional-pages-main {
+        width: 85%;
+    }
+}
+
+@media (max-width:600px) {
+    .additional-pages-main {
+        width: 95%;
+    }
+}
+
+@media (max-width:500px) {
+    .additional-pages-main h1 {
+        font-size: 24px;
+        margin: 15px 0;
+    }
+    .additional-pages-main h2 {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    .additional-pages-main p {
+        font-size: 12px;
+    }
+    .additional-pages-main a {
+        font-size: 12px;
+    }
+    .additional-pages-footer {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width:350px) {
+    .additional-pages-main h1 {
+        font-size: 18px;
+    }
+    .additional-pages-main h2 {
+        font-size: 14px;
+    }
+    .additional-pages-main p {
+        font-size: 11px;
+    }
+    .additional-pages-main a {
+        font-size: 11px;
+    }
+}
+
+@media (max-width:300px) {
+    .additional-pages-main h1 {
+        font-size: 16px;
+    }
+    .additional-pages-main h2 {
+        font-size: 12px;
+    }
+    .additional-pages-main p {
+        font-size: 10px;
+        text-align: left;
+    }
+    .additional-pages-main a {
+        font-size: 10px;
+    }
+}
