@@ -1799,6 +1799,7 @@ nav ul li:last-child {
 .slider-products {
     position: relative;
     height: 250px;
+    width: 100%;
 }
 
 .slider-sale-and-text-products {
@@ -1930,6 +1931,12 @@ nav ul li:last-child {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
+}
+
+@supports (-ms-accelerator: true) {
+    .brands-showcase {
+        justify-content: space-around;
+    }
 }
 
 .brand-showcase-image {
