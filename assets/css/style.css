@@ -1343,6 +1343,10 @@ nav ul li:last-child {
     margin-bottom: 10px;
 }
 
+.hide-alert {
+    display: none;
+}
+
 ::placeholder {
     font-size: 14px;
     color: black;
@@ -1400,6 +1404,22 @@ nav ul li:last-child {
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.send p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.alert-name,
+.alert-email {
+    color: rgb(253, 188, 188);
+}
+
+.alert-success {
+    color: #bbe474;
 }
 
 .button {
@@ -1410,6 +1430,7 @@ nav ul li:last-child {
     border: none;
     outline: none;
     min-width: 10%;
+    width: 100px;
 }
 
 @media (max-width:1520px) {
@@ -1420,6 +1441,9 @@ nav ul li:last-child {
 
 @media (max-width:1400px) {
     .location p {
+        font-size: 16px;
+    }
+    .send p {
         font-size: 16px;
     }
     .get-there-desc ul li {
@@ -1561,6 +1585,9 @@ nav ul li:last-child {
     .location p {
         font-size: 14px;
     }
+    .send p {
+        font-size: 14px;
+    }
     .get-there-desc ul li {
         font-size: 14px;
     }
@@ -1656,6 +1683,9 @@ nav ul li:last-child {
     .location p {
         font-size: 12px;
     }
+    .send p {
+        font-size: 12px;
+    }
     .contact-form form label {
         font-size: 12px;
     }
@@ -1713,6 +1743,9 @@ nav ul li:last-child {
         font-size: 11px;
     }
     .location p {
+        font-size: 11px;
+    }
+    .send p {
         font-size: 11px;
     }
     .contact-form form label {
