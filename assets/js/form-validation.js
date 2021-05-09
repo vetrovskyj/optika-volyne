@@ -14,7 +14,7 @@ button.addEventListener('click', function(e) {
             success.remove();
             nameAlert.classList.remove('hide-alert');
             nameAlert.classList.add('alert-name');
-            nameAlert.innerText = 'Prosím zadejte platné jméno a příjmení (max 4 slova)';
+            nameAlert.innerText = 'Zadejte jméno a příjmení bez diaktitiky (max 4 slova)';
             button.after(nameAlert);
             return false;
         }
