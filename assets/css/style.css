@@ -1431,6 +1431,12 @@ nav ul li:last-child {
     outline: none;
     min-width: 10%;
     width: 100px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #77A02E;
+    color: white;
 }
 
 @media (max-width:1520px) {
