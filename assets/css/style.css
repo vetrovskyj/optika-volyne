@@ -1929,14 +1929,8 @@ nav ul li:last-child {
     background-color: #777777;
     display: flex;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-}
-
-@supports (-ms-accelerator: true) {
-    .brands-showcase {
-        justify-content: space-around;
-    }
 }
 
 .brand-showcase-image {
